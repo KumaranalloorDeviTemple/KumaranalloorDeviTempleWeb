@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="JavaScriptTop.ascx.cs" Inherits="KumaranalloorTempleWeb.Shared.Sections.JavaScriptTop" %>
+<%-- Add here the JavaScript files that will be on top of the page --%>

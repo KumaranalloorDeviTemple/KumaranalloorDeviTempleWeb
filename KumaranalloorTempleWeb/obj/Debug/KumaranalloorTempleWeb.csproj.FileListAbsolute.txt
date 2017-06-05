@@ -1,0 +1,6 @@
+c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\bin\KumaranalloorTempleWeb.dll.config
+c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\bin\KumaranalloorTempleWeb.dll
+c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\bin\KumaranalloorTempleWeb.pdb
+c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.csprojResolveAssemblyReference.cache
+c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.dll
+c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.pdb

@@ -1,0 +1,156 @@
+/*
+
+  WIWET.com - ASP.NET Templates
+
+  Monkey Template
+
+*/
+@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+.wiwet-element_pic {
+    margin-top:0px;
+}
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+.wiwet-side_nanigation{
+	display:block;
+}	
+header .collapsed{
+	display:none;
+}
+.wiwet-responssive_block{
+	display:block;
+}
+.wiwet-responssive_none{
+	display:none;
+}
+.wiwet-element .nav-tabs {
+	max-width:500px;
+	margin:0 auto;
+}
+.wiwet-element .nav-tabs > li > a {
+    padding: 10px 45px 15px;
+}
+.wiwet-element .nav-tabs:before {
+    width: 473px;
+}
+.wiwet-element h4 {
+	padding-top:30px;
+}
+.wiwet-element .tab-content a {
+	padding: 14px 56px;
+}
+.mis_banner .col-xs-12{
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+.mis_banner h1 {
+    font-size: 36px;
+}
+.wiwet-element .nav-tabs > li > a i{
+	display:block;
+	font-size:77px;
+	text-align:center;
+}
+.wiwet-element .nav-tabs > li > a span{
+	display:none;
+}
+.wiwet-footer_item2 p {
+	font-size:24px;
+}
+.navbar-inverse {
+	margin:0px;
+	padding:10px 0px;
+}
+#menu-toggle {
+    top: -4px;
+}
+.site-footer{
+	height: 150px;
+}
+.page-wrap {
+    margin-bottom:-150px;
+}
+
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 520px), only screen and (max-device-width: 520px) {
+.wiwet-element .nav-tabs {
+    max-width: 320px;
+	border-bottom:5px solid #303240;
+}
+.wiwet-element .nav-tabs > li > a {
+    padding: 10px 15px 15px;
+}
+.wiwet-element .nav-tabs:before {
+	display:none;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -4px;
+}
+.wiwet-question .panel-title > a i{
+	padding-top:35%;
+}
+.wiwet-footer_item2 p {
+	font-size:18px;
+}
+	
+	
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+
+.wiwet-element .nav-tabs > li{
+	width:33.33%;
+}
+.wiwet-element .nav-tabs > li > a {
+    padding: 1px 8px 5px;
+	font-size:14px;
+	display:block;
+}
+.wiwet-contact_item1 ul li {
+    padding: 0px 5px;
+}
+.wiwet-contact_item1 ul {
+    max-width: 214px;
+}
+.wiwet-question .panel-title > a i{
+	padding-top:40%;
+}
+.wiwet-footer_item2 p {
+	font-size:16px;
+}
+.site-footer{
+	height: 180px;
+}
+.page-wrap {
+    margin-bottom:-180px;
+}
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
