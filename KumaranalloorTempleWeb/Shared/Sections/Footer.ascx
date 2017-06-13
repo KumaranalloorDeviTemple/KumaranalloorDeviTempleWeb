@@ -3,13 +3,11 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 wiwet-responssive_block"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: false}">
-        <div class="wiwet-footer_item2">        
-          <p><span>KumaranalloorTempleWeb</span> - Copyright 2016</p>          
+        <div class="wiwet-footer_item2">                
         </div>
       </div>
       <div class="col-xs-6 col-sm-4"  data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: false}">
         <div class="wiwet-footer_item1">
-        
           <h4>POWERED BY</h4>
           <p><a href="http://wiwet.com" title="wiwet.com -ASP.NET Templates">wiwet.com -ASP.NET Templates</a></p>
           

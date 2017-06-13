@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,9 +70,16 @@
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\desktop.png" />
     <Content Include="Content\Images\kdt-bg-001.jpg" />
+    <Content Include="Content\Images\kdt-bg-02.jpg" />
     <Content Include="Content\Images\kdt-bg-03.jpg" />
     <Content Include="Content\Images\kdt-bg-04.jpg" />
+    <Content Include="Content\Images\kdt-bg-05.jpg" />
+    <Content Include="Content\Images\kdt-bg-07.jpg" />
     <Content Include="Content\Images\kdt-devi-01.jpg" />
+    <Content Include="Content\Images\kdt-devi-02.jpg" />
+    <Content Include="Content\Images\kdt-home-02.jpg" />
+    <Content Include="Content\Images\kdt-home-03.png" />
+    <Content Include="Content\Images\kdt-home-08.png" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\logo2.png" />
     <Content Include="Content\Images\mobile.png" />
@@ -88,6 +98,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Index.aspx" />
     <Content Include="Pages\BlankPage.aspx" />
+    <Content Include="Pages\Architecture.aspx" />
+    <Content Include="Pages\Gallery.aspx" />
+    <Content Include="Pages\Dewasom.aspx" />
+    <Content Include="Pages\Festivals.aspx" />
+    <Content Include="Pages\Poojas.aspx" />
+    <Content Include="Pages\Temple.aspx" />
     <Content Include="Shared\MasterPages\SiteLayout.Master" />
     <Content Include="Content\Fonts\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="Content\Fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
@@ -124,6 +140,7 @@
     <Content Include="Content\Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\Fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -158,6 +175,48 @@
     </Compile>
     <Compile Include="Pages\BlankPage.aspx.designer.cs">
       <DependentUpon>BlankPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Architecture.aspx.cs">
+      <DependentUpon>Architecture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Architecture.aspx.designer.cs">
+      <DependentUpon>Architecture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dewasom.aspx.cs">
+      <DependentUpon>Dewasom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dewasom.aspx.designer.cs">
+      <DependentUpon>Dewasom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Festivals.aspx.cs">
+      <DependentUpon>Festivals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Festivals.aspx.designer.cs">
+      <DependentUpon>Festivals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Poojas.aspx.cs">
+      <DependentUpon>Poojas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Poojas.aspx.designer.cs">
+      <DependentUpon>Poojas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Temple.aspx.cs">
+      <DependentUpon>Temple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Temple.aspx.designer.cs">
+      <DependentUpon>Temple.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\MasterPages\SiteLayout.Master.cs">

@@ -4,3 +4,11 @@ c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTemple
 c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.csprojResolveAssemblyReference.cache
 c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.dll
 c:\users\sreeraj rajan\documents\visual studio 2017\Projects\KumaranalloorTempleWeb\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.pdb
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\bin\KumaranalloorTempleWeb.dll.config
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\bin\KumaranalloorTempleWeb.dll
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\bin\KumaranalloorTempleWeb.pdb
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\bin\Newtonsoft.Json.dll
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\bin\Newtonsoft.Json.xml
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.dll
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.pdb
+C:\Users\Sreeraj Rajan\Documents\GitHub\KumaranalloorDeviTemple\Website\KumaranalloorTempleWeb\obj\Debug\KumaranalloorTempleWeb.csprojResolveAssemblyReference.cache
