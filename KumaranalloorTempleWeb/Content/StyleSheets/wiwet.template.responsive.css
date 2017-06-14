@@ -8,12 +8,8 @@
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 .wiwet-element_pic {
     margin-top:0px;
+}	
 }
-	
-	
-	
-}
-
 
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
 .wiwet-side_nanigation{
@@ -67,17 +63,21 @@ header .collapsed{
 	padding:10px 0px;
 }
 #menu-toggle {
-    top: -4px;
-}
+        top: -10px;
+        color:#b01000;
+        font-weight:bold;
+        text-align: left;
+    }
 .site-footer{
 	height: 150px;
 }
 .page-wrap {
     margin-bottom:-150px;
 }
-
-
-	
+.mis_blank_header{
+    margin-top:0px;
+    height:80px;
+}
 }
 
 

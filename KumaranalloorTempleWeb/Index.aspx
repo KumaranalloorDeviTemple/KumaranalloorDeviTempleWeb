@@ -10,30 +10,13 @@
 <asp:Content ID="bodyPage" ContentPlaceHolderID="ContentBody" runat="server">
     <!-- Banner Start-->
     <section class="mis_banner" style="max-height: 400px; text-align: center;">
-        <%--      <div class="container">--%>
-        <%--        <div class="row">
-            <div class="col-xs-12">--%>
         <img src="Content/Images/kdt-devi-02.jpg" class="kdt_main_image" style="display:inline-block; height:auto; width:auto; text-align:center; border-collapse:collapse;" />
-        <%--          </div>
-        </div>--%>
-        <%--      </div>--%>
     </section>
-
-        <section class="mis_banner_header">
-            <h1  data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: false}">KUMARANALLOOR  DEVI  TEMPLE</h1>
-            <br />
-            <h5  data-uk-scrollspy="{cls:'uk-animation-slide-bottom', repeat: false}" style="top:-20px; color:#b01000; text-align:center;margin-top:-10px;">Official Dewasom Website</h5>
-            <br />
-        </section>
-
     <!-- Banner End-->
 
     <!-- feature Start-->
     <section class="wiwet-feature">
         <div class="container">
-            <%--        <div class="wiwet-headline">
-          <h2>Best for business</h2>
-        </div>--%>
             <div class="row">
                 <div class="col-sm-4" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: false}">
                     <div class="wiwet-feature_item1">
@@ -100,11 +83,6 @@
 
     <section class="wiwet-getstarted">
         <div class="container" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: false}">
-<%--            <div class="wiwet-headline">
-
-                <h2>Get started!</h2>
-
-            </div>--%>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="kdt-content">
@@ -400,8 +378,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="wiwet-contact_item1">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <ul style="font-size:18px;">
+                            <li><a href="#" style="font-size:18px;"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>

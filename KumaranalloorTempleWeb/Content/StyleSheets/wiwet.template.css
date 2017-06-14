@@ -1,10 +1,4 @@
-/*
 
-  WIWET.com - ASP.NET Templates
-
-  Monkey Template
-
-*/
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 
 body {
@@ -26,7 +20,7 @@ a {
     line-height: 100%;
 }
 
-    a:hover, a:focus {
+a:hover, a:focus {
         text-decoration: none;
     }
 
@@ -67,13 +61,15 @@ header {
     margin-top: 20px;
     background: none;
     border: none;
+    text-align: center;
 }
 
 .navbar-inverse .navbar-nav > li > a {
         /*font-weight: bold;*/
         color: #b01000;
-        padding: 10px 20px;
+        padding: 0px 20px;
         font-size: 18px;
+        text-align: center;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -113,17 +109,17 @@ header {
 .sidebar-nav li a {
         display: block;
         text-decoration: none;
-        color: #999;
+        color: #b01000;
         letter-spacing: 2px;
         text-align: center;
     }
 
 .sidebar-nav li .active {
-        color: #22ddbc;
+        color: #b01000;
     }
 
-.sidebar-nav li a:hover {
-        color: #22ddbc;
+    .sidebar-nav li a:hover {
+        color: #b01000;
     }
 
 .sidebar-nav li .wiwet-nav_button {
@@ -179,7 +175,7 @@ header {
     z-index: 1000000;
     position: absolute;
     top: 10px;
-    right: 10px;
+    width:100%;
 }
 
 #sidebar-wrapper {
@@ -189,7 +185,9 @@ header {
     width: 100%;
     height: 100%;
     overflow-y: auto;
-    background: rgba(0, 0, 0, 0.89);
+    background: #F7B52D;
+    /*opacity:.9;*/
+    color: #b01000;.toggle.active:before
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -214,21 +212,23 @@ header {
 }
 
 
-    .toggle:before {
+.toggle:before {
         font-family: FontAwesome;
-        margin: 15px 15px 0 0;
+        margin-left: 10px;
+        padding-right: 20px;
         content: "\f0c9";
-        font-size: 36px;
-        color: #FFF;
-        padding-left: 10px;
+        font-size: 27px;
+        color: #b01000;
+        width:100%;
+        font-weight: normal;
     }
 
-    .toggle.active:before {
+.toggle.active:before {
         font-family: FontAwesome;
         margin: 15px 15px 0 0;
         content: "\f00d";
         font-size: 36px;
-        color: #FFF;
+        color: #b01000;
     }
 
 .scroll-btn .mouse {
@@ -241,7 +241,7 @@ header {
     border-radius: 24px;
 }
 
-    .scroll-btn .mouse span {
+.scroll-btn .mouse span {
         position: absolute;
         display: block;
         top: 0;
@@ -324,6 +324,7 @@ header {
 
 .wiwet-side_nanigation {
     display: none;
+    padding-right: 10px;
 }
 
 /*****hide manue End****/
@@ -331,23 +332,24 @@ header {
 
 /**************Banner area start***************/
 .mis_banner {
-    background: url(../Images/kdt-bg-05.jpg) center bottom no-repeat;
+    background: url(../Images/kdt-bg-03.jpg) center bottom no-repeat;
     background-size: cover;
-    padding-top: 94px;
-    height: 350px;
+    padding-top: 60px;
+    height: 300px;
+    top:60px;
 }
 
-    .mis_banner .col-xs-12 {
+.mis_banner .col-xs-12 {
         padding-top: 120px;
         padding-bottom: 260px;
     }
 
-    .mis_banner h1 {
+.mis_banner h1 {
         color: #22ddbc;
         text-align: center;
         /*line-height:300px;*/
         font-weight: bold;
-        font-size: 80px;
+        font-size: 36px;
     }
 
 .mis_banner_header {
@@ -358,12 +360,12 @@ header {
     background-color: #d9d9d9;
 }
 
-    .mis_banner_header .col-xs-12 {
+.mis_banner_header .col-xs-12 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
-    .mis_banner_header h1 {
+.mis_banner_header h1 {
         color: #b01000;
         text-align: center;
         /*line-height:300px;*/
@@ -675,7 +677,7 @@ header {
     }
 
 .wiwet-contact_item1 {
-    margin-top: 40px;
+    margin-top: 12px;
 }
 
     .wiwet-contact_item1 ul {
@@ -686,13 +688,13 @@ header {
     }
 
         .wiwet-contact_item1 ul li {
-            float: left;
+            float: right;
             list-style-type: none;
-            padding: 0px 15px;
+            padding: 0px 8px;
         }
 
             .wiwet-contact_item1 ul li a {
-                font-size: 36px;
+                font-size: 18px;
                 color: #F7B52D;
                 background: #b01000;
                 text-align: center;
@@ -759,15 +761,19 @@ footer {
 .mis_blank_header {
     background: #ffac00;
     opacity: .8;
+    text-align: center;
+    margin-top: 40px;
 }
 
     .mis_blank_header .navbar-inverse {
         margin: 0;
         padding: 10px 0px;
+        text-align: center;
     }
 
     .mis_blank_header .navbar-brand {
         width: 134px;
+        text-align: center;
     }
 
 .mis_blank_body {
