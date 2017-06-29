@@ -366,7 +366,7 @@ top: 30%;
 	z-index: -1;
 }
 .wiwet-feature_item1 h3{
-	padding-top:150px;
+	padding-top:120px;
 	font-weight:bold;
 }
 .wiwet-feature_item1 p{
@@ -381,8 +381,8 @@ top: 30%;
 
 /**************element area start***************/
 .wiwet-element{
-	margin-top:70px;
-	padding:70px 0px;
+	margin-top:30px;
+	padding:30px 0px;
 	background:#353847;
 }
 .wiwet-element .nav-tabs {
@@ -420,7 +420,7 @@ top: 30%;
         border-bottom: 5px solid #b01000;
     }
 .wiwet-element .tab-content{
-	padding-top:50px;
+	padding-top:0px;
 }
 .wiwet-element h4{
 	color:#fff;
@@ -429,7 +429,7 @@ top: 30%;
 .wiwet-element p{
 	color:#fff;
 	line-height:200%;
-	padding-top:20px;
+	padding-top:30px;
 	font-size:16px;
 	padding-bottom:40px;
 }
@@ -867,7 +867,7 @@ html, body {
 .kdt-div-hlink-button {
     text-align: center;
     border-radius: 5px;
-    background-color: #b01000;
+    background-color: #ffb400;
     opacity: 1;
     display: inline-block;
     height: 40px;
@@ -876,13 +876,13 @@ html, body {
     margin-top: 0px;
 }
 
-.kdt-div-hlink-button h1 {
-    color: #ffb400;
-    font-weight: normal;
-    font-size: 18px;
-    width: 200px;
-    height: 40px;
-    padding-top: 10px;
-    text-align:center;
-    border-radius:20px;
-}
+    .kdt-div-hlink-button h1 {
+        color: #500900;
+        font-weight: normal;
+        font-size: 18px;
+        width: 200px;
+        height: 40px;
+        padding-top: 10px;
+        text-align: center;
+        border-radius: 20px;
+    }

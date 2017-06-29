@@ -15,7 +15,24 @@ namespace KumaranalloorDeviTempleWeb.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            try
+            {
+                List<NotificationsViewModel> AllNotifications;
+                using (var client = new WebClientWithTimeout())
+                {
+                    client.Headers.Add("content-type", "application/json");//
+                    string responseAllVazhipadu = client.DownloadString("http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/notifications");
+                    var jsonser = new JavaScriptSerializer();
+                    AllNotifications = jsonser.Deserialize<List<NotificationsViewModel>>(responseAllVazhipadu);
+                }
+                return View(AllNotifications);
+            }
+            catch (Exception ex)
+            {
+                //to-do
+                //error logging, get view from cache
+                return View("Error");
+            }
         }
 
         public ActionResult Temple()
@@ -30,7 +47,25 @@ namespace KumaranalloorDeviTempleWeb.Controllers
 
         public ActionResult Events()
         {
-            return View();
+            // http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/notifications
+            try
+            {
+                List<NotificationsViewModel> AllNotifications;
+                using (var client = new WebClientWithTimeout())
+                {
+                    client.Headers.Add("content-type", "application/json");//
+                    string responseAllVazhipadu = client.DownloadString("http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/notifications");
+                    var jsonser = new JavaScriptSerializer();
+                    AllNotifications = jsonser.Deserialize<List<NotificationsViewModel>>(responseAllVazhipadu);
+                }
+                return View(AllNotifications);
+            }
+            catch (Exception ex)
+            {
+                //to-do
+                //error logging, get view from cache
+                return View("Error");
+            }
         }
 
         public ActionResult Locate()
