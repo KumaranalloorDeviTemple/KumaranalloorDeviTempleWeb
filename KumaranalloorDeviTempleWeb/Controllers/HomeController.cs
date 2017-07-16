@@ -21,7 +21,7 @@ namespace KumaranalloorDeviTempleWeb.Controllers
                 using (var client = new WebClientWithTimeout())
                 {
                     client.Headers.Add("content-type", "application/json");//
-                    string responseAllVazhipadu = client.DownloadString("http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/notifications");
+                    string responseAllVazhipadu = client.DownloadString("http://admin.kumaranalloortemple.com/api/notifications");
                     var jsonser = new JavaScriptSerializer();
                     AllNotifications = jsonser.Deserialize<List<NotificationsViewModel>>(responseAllVazhipadu);
                 }
@@ -31,7 +31,7 @@ namespace KumaranalloorDeviTempleWeb.Controllers
             {
                 //to-do
                 //error logging, get view from cache
-                return View("Error");
+                return View();
             }
         }
 
@@ -47,14 +47,13 @@ namespace KumaranalloorDeviTempleWeb.Controllers
 
         public ActionResult Events()
         {
-            // http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/notifications
             try
             {
                 List<NotificationsViewModel> AllNotifications;
                 using (var client = new WebClientWithTimeout())
                 {
                     client.Headers.Add("content-type", "application/json");//
-                    string responseAllVazhipadu = client.DownloadString("http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/notifications");
+                    string responseAllVazhipadu = client.DownloadString("http://admin.kumaranalloortemple.com/api/notifications");
                     var jsonser = new JavaScriptSerializer();
                     AllNotifications = jsonser.Deserialize<List<NotificationsViewModel>>(responseAllVazhipadu);
                 }
@@ -96,7 +95,7 @@ namespace KumaranalloorDeviTempleWeb.Controllers
                 using (var client = new WebClientWithTimeout())
                 {
                     client.Headers.Add("content-type", "application/json");//
-                    string responseAllVazhipadu = client.DownloadString("http://kumaranalloordevitempleadmin.azurewebsites.net/kdt/publicapi/vazhipadu?diety=All");
+                    string responseAllVazhipadu = client.DownloadString("http://admin.kumaranalloortemple.com/api/vazhipadu?diety=All");
                     var jsonser = new JavaScriptSerializer();
                     AllVazhipadu = jsonser.Deserialize<List<VazhipaduViewModel>>(responseAllVazhipadu);
                 }

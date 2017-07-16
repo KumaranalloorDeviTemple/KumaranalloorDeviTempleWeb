@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Locate Us | Kumaranalloor Devi Temple";
+}
+
+<!-- Banner Start-->
+<section class="kdt-mis_banner" style="max-height: 450px; text-align: center; background-image: url('../../Content/Images/kdt-locate-01.png');">
+    <!-- festivals -->
+    <h1 style="vertical-align:central; padding-top:150px; color:#ffb400; font-weight: normal; font-family: Ubuntu,'Open Sans', sans-serif; font-size:36px;"></h1>
+</section>
+
+<section class="page-wrap mis_blank_body" style="padding: 0px;">
+    <div class="container">
+
+        <!-- locate us -->
+        <div class="row">
+            <section class="wiwet-getstarted">
+                <div class="container" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: false}">
+                    <div class="wiwet-headline">
+                        <h3>LOCATE US</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="kdt-content">
+                                <h5>LOCATION</h5>
+                                <p>
+                                    Kumaranalloor is a big town in Kottayam municipality, Kottayam taluka, Kerala, India. Kottayam city is just 5 km south of Kumaranalloor. The region was administrated by the Kumaranallur grama panchayath till 2010, before the local self-governing body was merged into the Kottayam municipality. The former Panchayath office now exists as the regional administrative office for the municipality.
+                                </p>
+                                <h5>HOW TO REACH</h5>
+                                <p>
+                                    By Road: <br />
+                                    Kumaranalloor is well connected with the other parts of the country by road and rail. The MC road ( SH1 ) is passing through kumaranalloor. The private bus stop is 1 km towards the east of the temple . It is 15-minute drive by car from kottayam and busses ply every two minutes from kottayam. Kerala road transport corporation (ksrtc) runs bus services from all major locations of the state and inter-state services to kottayam. The bus stand is 5 km away form the temple in kottayam town . Both ksrtc and private busses offer interstate services to all major south indian cities like madras , madurai , palani, salem , coimbatore , thiruchandoor, mysore , mangalore, uduppi, mookambika etc from kottayam. All the busses except super fast have stops in kumaranalloor.
+                                    <br /><br />
+                                    By Rail: <br />
+                                    Kumaranalloor railway station is 1 km towards the east of the temple near main junction, which is the main line connecting trivandrum to ernakulam.only ordinary trains stops in kumaranalloor. Main station is kottayam junction and is 4.5 km away from the temple and all the major trains' stops there. It has computerised ticket-booking facility and tickets can be booked to any locations from here.
+                                    <br /><br />
+                                    By Air: <br />
+                                    Kochi international airport (nedumbassery) is 80 kms from kumaranalloor and the trivandrum airport is 150 kms away. All major international flight services are operated from these airports.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- locate us map -->
+        <div class="row">
+            <section class="wiwet-getstarted">
+                <div class="container" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: false}">
+                    <div class="wiwet-headline">
+                        <h3>DIRECTIONS</h3>
+                        <br />
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="kdt-content">
+                                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDVThsS2LtBRT7UlUpZzx2HI0lAXorb-zg&saddr=start&daddr=end&ie=UTF8&t=h&z=7&layer=t'></script>
+                                <div style='overflow:hidden;height:400px;width:100%;'>
+                                    <div id='gmap_canvas' style='height:400px;width:100%;'></div>
+                                    <style>
+                                        #gmap_canvas img {
+                                            max-width: none !important;
+                                            background: none !important
+                                        }
+                                    </style>
+                                </div> <a href='https://embedmaps.net'>google maps iframe embed</a>
+                                <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=a63c4ab9ae69e9b690d3a9b94abf8b0e063f8e3c&saddr=start&daddr=end&ie=UTF8&t=h&z=7&layer=t'></script>
+                                <script type='text/javascript'>
+                                    function init_map() { var myOptions = { zoom: 9, center: new google.maps.LatLng(9.623453399999999, 76.52740889999995), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(9.623453399999999, 76.52740889999995) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Kumaranalloor Devi Temple</strong><br>Kumaranalloor Devi Temple<br>686016 Kottayam<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</section>

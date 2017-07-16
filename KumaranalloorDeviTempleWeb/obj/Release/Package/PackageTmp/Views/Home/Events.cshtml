@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Events | Kumaranalloor Devi Temple";
+}
+
+<!-- Banner Start-->
+<section class="kdt-mis_banner" style="max-height: 450px; text-align: center; background-image: url('../../Content/Images/kdt-events-02.jpg');">
+    <!-- festivals -->
+    <h1 style="vertical-align:central; padding-top:150px; color:#ffb400; font-weight: normal; font-family: Ubuntu,'Open Sans', sans-serif; font-size:36px;">EVENTS</h1>
+</section>
+
+@*<section class="page-wrap mis_blank_body" style="padding: 0px;">
+    <div class="container">*@
+
+        <!-- events -->
+        <div class="row">
+            <section class="wiwet-getstarted">
+                <div class="container" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: false}">
+
+                    <h3>Upcoming Events</h3>
+                    <br />
+                </div>
+                <div class="row" style="width:80%;padding-left:10%;padding-right:0%;">
+                    <div class="col-sm-12">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" >
+                            @foreach (var notification in Model)
+                            {
+                                <div class="panel panel-default" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: false}">
+                                    <div class="panel-heading" role="tab" id="headingTwo" style="background-color:#F3F3F3; border-radius:3px;">
+
+                                        <h4 class="panel-title" style="background-color:#F3F3F3;">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color:#b01000;">
+                                                <b> @notification.notification_title </b>
+                                                @*<div class="wiwet-icon_possion"> <i class="fa fa-angle-down"></i> <i class="fa fa-angle-up"></i> </div>*@
+                                            </a>
+                                        </h4>
+
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            @notification.notification_description
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    @*</div>
+</section>*@
